@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3f38dcc-292a-46cc-8f76-0e80a28f1bf4">
+  <producedTypes>
+    <objectType typeId="0af8309b-40e3-4fa7-b381-b8a4a758e119" valueTypeId="5a80df10-931e-4d0c-b8d3-5c2908744575"/>
+    <refType typeId="96332509-a264-4849-a833-59cdd7e59474" valueTypeId="bdc9bb14-d821-4ef4-ac74-0402810eb6a3"/>
+    <selectionType typeId="6974dae8-d085-46cb-830e-c8a3349c2e0d" valueTypeId="dbc36392-e229-4640-9229-4d51426c400b"/>
+    <listType typeId="214fe2df-0849-485e-bd40-d0e2e15e3042" valueTypeId="559c2150-6d92-474f-b054-a212817bc1bc"/>
+    <managerType typeId="203e7c30-5993-41dc-a1fe-44f78703e55c" valueTypeId="30000731-0098-4f3f-a691-e87a37593e89"/>
+  </producedTypes>
+  <name>Абонемент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Абонемент</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Абонемент.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultListForm>Document.Абонемент.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.ДоступныеУслуги</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="4c5b345d-6814-4f0d-8fad-6591ba958069">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b3507078-b49f-4a1a-a712-17d86e860b1a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

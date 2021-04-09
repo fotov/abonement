@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e56812c-2ac9-4051-b4d1-806a2cf4ed86">
+  <name>Абонементы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Абонементы</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8241d9cd-d908-4ea5-97f0-8a4f01bc43f4"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="76b2b8ea-9b54-4a97-b2a5-3dd0891025c1"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e59890e4-8dda-4e89-a1a2-c0d03296fb0e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9c7a8e40-ddc0-4972-b86e-36922cd7712e"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1d234f3f-53a5-4126-ba4b-406d77ccd5db"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="81dfc3af-b673-4288-a104-3a8426cba749"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="671ec18f-978c-428b-9205-adface7b885e"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="7a3d2385-e3b7-4481-b37e-44041718e734">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <documents>Document.Абонемент</documents>
+  <documents>Document.ИспользованиеУслуги</documents>
+  <accumulationRegisters>AccumulationRegister.ДоступныеУслуги</accumulationRegisters>
+</mdclass:Configuration>
