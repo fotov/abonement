@@ -24,6 +24,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИспользованиеУслуги.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.ДоступныеУслуги</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -43,4 +44,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="6e1a2dd3-b1a9-4f68-8397-469cff9b1ac9">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>
