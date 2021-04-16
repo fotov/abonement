@@ -36,5 +36,6 @@
   </languages>
   <documents>Document.Абонемент</documents>
   <documents>Document.ИспользованиеУслуги</documents>
+  <dataProcessors>DataProcessor.ГенераторQR_кода</dataProcessors>
   <accumulationRegisters>AccumulationRegister.ДоступныеУслуги</accumulationRegisters>
 </mdclass:Configuration>
